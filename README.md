@@ -1,2 +1,2 @@
 # DotNetCoreApiAndAngularJs
-This application has been developed using Asp dot net core and angularjs .
+This application has been developed using Asp dot net core and angularjs Framework .
