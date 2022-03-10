@@ -15,6 +15,8 @@ import { ContactComponent } from './home/frontend/contact/contact.component';
 import { AppRoutingModule } from './app-routing.module';
 import { FrontendRoutingModule } from './home/frontend/frontend-routing.module';
 import { AdminRoutingModule } from './home/admin/admin-routing.module';
+import { AdminlayoutComponent } from './layout/adminlayout/adminlayout.component';
+import { FrontendlayoutComponent } from './layout/frontendlayout/frontendlayout.component';
 
 @NgModule({
   declarations: [
@@ -27,8 +29,10 @@ import { AdminRoutingModule } from './home/admin/admin-routing.module';
     FrontendNavbarComponent,
     HomeComponent,
     ShopComponent,
-    AboutComponent,
-    ContactComponent
+    //AboutComponent,
+    ContactComponent,
+    FrontendlayoutComponent,
+    AdminlayoutComponent
   ],
   imports: [
     BrowserModule,

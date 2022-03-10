@@ -2,12 +2,25 @@ import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './home/home.component';
+import { ShopComponent } from './shop/shop.component';
+import { SingleProductComponent } from './single-product/single-product.component';
+import { CheckoutComponent } from './checkout/checkout.component';
+import { FullCartComponent } from './full-cart/full-cart.component';
+import { AboutComponent } from './about/about.component';
+import { ContactComponent } from './contact/contact.component';
 
 
 
-const routes: Routes = [
+const routes: Routes = [ 
     { path: '', component: HomeComponent },
-  // { path: 'Dashboard', component: AdminDashboardComponent  },
+    { path: 'shop', component: ShopComponent },
+    { path: 'single', component: SingleProductComponent },
+    { path: 'checkout', component: CheckoutComponent },
+    { path: 'cart', component: FullCartComponent },
+    { path: 'about', component: AboutComponent },
+    { path: 'contact', component: ContactComponent },
+
+
   // { path: 'Distributor', loadChildren: './distributor/distributor.module#DistributorModule' },
   // { path: 'Dso',  loadChildren: './dso/dso.module#DsoModule' },
   // { path: 'EMoneyTransfer',   loadChildren: './e-money-transfer/e-money-transfer.module#EMoneyTransferModule' },
